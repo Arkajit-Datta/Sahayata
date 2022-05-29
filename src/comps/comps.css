@@ -1,0 +1,9 @@
+.events-updates-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 286px;
+  height: 360px;
+background-color: white;
+  overflow: hidden;
+}

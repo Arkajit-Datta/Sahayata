@@ -1,0 +1,78 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login-box {
+  border: 1.67151px solid rgba(196, 196, 196, 0.32);
+  box-shadow: 0px 1.67151px 4.17878px rgba(0, 0, 0, 0.1);
+  border-radius: 3.34302px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 31px;
+  margin-top: 50px;
+}
+.login-header {
+  font-size: 30px;
+  color: #051733;
+  font-family: "poppins";
+}
+.auth-button {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1.37447px solid #f1f5f9;
+  box-shadow: 0px 1.67151px 4.17878px rgba(0, 0, 0, 0.1);
+  border-radius: 8.2468px;
+  height: 40px;
+  margin-block: 15px;
+}
+.login-button {
+  height: 40px;
+  padding: 10px;
+  border: none;
+  color: white;
+  border-radius: 3px;
+  background-color: #51cea2;
+  width: 150px;
+  margin-top: 15px;
+}
+.register-link {
+  cursor: pointer;
+}
+.login-footer {
+  margin-block: 10px;
+  font-family: "poppins";
+  color: #051733;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.login-input {
+  padding-block: 5px;
+  padding-inline: 10px;
+  margin-block: 10px;
+  font-family: "poppins";
+  color: #051733;
+  font-size: 16px;
+  width: 380px;
+  height: 30px;
+
+  background: #ffffff;
+  border: 0.835756px solid rgba(5, 23, 51, 0.6);
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.login-or {
+  margin-block: 15px;
+  color: #51cea2;
+  font-size: medium;
+  font-family: "poppins";
+}

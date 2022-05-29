@@ -1,0 +1,107 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header-1 {
+  margin-top: 48.1px;
+  font-size: 32px;
+  font-family: "poppins";
+  color: #051733;
+}
+.box {
+  width: 60%;
+  /* height: 500px; */
+  margin-top: 25px;
+  border: 1.67151px solid rgba(196, 196, 196, 0.32);
+  box-shadow: 0px 1.67151px 4.17878px rgba(0, 0, 0, 0.1);
+  border-radius: 3.34302px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-inline:56px;
+  padding-top: 30px;
+  color:#737d8d;
+  font-size: small;
+}
+.box-header {
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-family: "poppins";
+  color: #051733;
+}
+.button-cshg{
+    transform: translate(0,25px);
+}
+.form1-required{
+    color:red;
+    transform: translate(-320px,0px);
+    margin-block: 30px;
+}
+.form1{
+
+}
+.form1-label-input{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+.one-input{
+    margin-inline: 30px;
+}
+.form1-label{
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 10px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+.form1-input{
+    border-style: solid;
+    border-width: 2px;
+    border-color: lightgrey;
+    height: 40px;
+    width: 550px;
+    margin-bottom: 5px;
+    font-family: "poppins";
+    font-size: larger;
+    padding-inline: 20px;
+}
+.form2-input{
+  border-style: solid;
+  border-width: 2px;
+  border-color: lightgrey;
+  height: 40px;
+  width: 1000px;
+  margin-bottom: 5px;
+  font-family: "poppins";
+  font-size: larger;
+  padding-inline: 20px;
+}
+.form2-input-des{
+  border-style: solid;
+  border-width: 2px;
+  border-color: lightgrey;
+  height: 150px;
+  width: 1000px;
+  margin-bottom: 5px;
+  font-family: "poppins";
+  font-size: larger;
+  padding-inline: 20px;
+  
+}
+.form1-grid {
+  display: grid;
+  grid-template-columns: auto auto ;
+  /* background-color: #2196F3; */
+  padding: 10px;
+  column-gap: 100px;
+}
+.form2-grid{
+  display: grid;
+  grid-template-columns: auto ;
+  /* background-color: #2196F3; */
+  padding: 10px;
+  column-gap: 100px; 
+}

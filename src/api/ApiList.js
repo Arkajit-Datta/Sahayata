@@ -12,5 +12,7 @@ export const API={
     GET_USER_DATA:base+"/userProfile",
     GET_USER_SGH:base+"/shgDetails",
     DEPOSIT:base+"depositAmount",
-    WITHDRAW:base+"withdrawAmount"
+    WITHDRAW:base+"withdrawAmount",
+    api1:"sahayata/get"
+
 }

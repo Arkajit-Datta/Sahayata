@@ -4,7 +4,7 @@ import { API } from "../ApiList";
 
 function Transaction( userData) {
   const [result, setResult] = React.useState("");
-
+const [sampleState, setstate] = useState('init Value');
   const axios = require("axios").default;
 
   const callApi = (type,amount,date,description) => {
